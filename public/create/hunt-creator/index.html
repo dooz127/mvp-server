@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Scavenged Sevenfolder</title>
+        <link rel="stylesheet" href="../../css/huntCreator.css" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Raleway"
+            rel="stylesheet"
+        />
+    </head>
+    <body onload="setBGColor()">
+        <h1 id="title">Scavenged Sevenfolder</h1>
+
+        <div class="form-field">
+            <label id="huntTitle">Scavenger Hunt Title</label>
+            <input id="name" type="text" name="name" autofocus />
+        </div>
+        <br />
+        <br />
+        <div id="allItems">
+            <div id="item-field">
+                <label>Item 1: </label>
+                <input class="item" id="item1" type="text" autofocus />
+            </div>
+            div>
+        </div>
+
+        <button onclick="addItem()">Add another item</button>
+
+        <br />
+        <br />
+
+        <div class="form-field">
+            <button onclick="updateDatabase()">Create Hunt</button>
+        </div>
+
+        <br />
+
+        <button onclick="cancelHunt()">
+            Cancel hunt and return to hunt selection
+        </button>
+
+        <script src="../../socket.io/socket.io.js"></script>
+        <script src="../../js/huntCreator.js"></script>
+    </body>
+</html>

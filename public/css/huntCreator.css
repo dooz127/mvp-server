@@ -1,22 +1,26 @@
-#question-field{
+#item-field {
     border-style: groove;
     border-width: 1px;
     padding: 10px;
     font-family: 'Raleway', sans-serif;
 }
-.question{
+
+.item {
     width: 400px;
     font-family: 'Raleway', sans-serif;
 }
-.correct{
+
+.correct {
     width: 50px;
     text-align: center;
     font-family: 'Raleway', sans-serif;
 }
-#title{
+
+#title {
     text-align: center;
     font-family: 'Raleway', sans-serif;
 }
-#quizTitle{
+
+#huntTitle {
     font-family: 'Raleway', sans-serif;
 }
